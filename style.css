@@ -1,0 +1,27 @@
+h1{
+    text-align: center;
+}
+.container{
+    width: 50%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr)
+}
+.day{
+    width: ;
+    background-color: pink;
+    margin: 5px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+.date{
+    background-color: aquamarine;
+    width: ;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
