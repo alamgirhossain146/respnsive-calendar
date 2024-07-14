@@ -5,12 +5,11 @@ h1{
     width: 50%;
     margin: 0 auto;
     display: grid;
-    grid-template-columns: repeat(7, 1fr)
+    grid-template-columns: repeat(7, 1fr);
+    gap: 10px;
 }
 .day{
-    width: ;
     background-color: pink;
-    margin: 5px 10px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -18,8 +17,6 @@ h1{
 }
 .date{
     background-color: aquamarine;
-    width: ;
-    margin: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
